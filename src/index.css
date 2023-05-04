@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .main {
+    @apply bg-gray-200 dark:bg-black;
+  }
+  .background {
+    @apply w-full h-16 px-8 bg-navbar dark:bg-black;
+  }
+  .nav-items {
+    @apply flex items-center justify-between;
+  }
+
+  .section {
+    @apply flex h-screen  justify-between mx-20  bg-white mt-16  dark:bg-zinc-900 dark:text-white;
+  }
+  .section-pic {
+    @apply flex items-center justify-center ml-10;
+  }
+  .section-form {
+    @apply flex flex-col items-center mr-44 h-3/5 justify-center mt-28;
+  }
+  .form {
+    @apply flex flex-col justify-start;
+  }
+  .input {
+    @apply p-2 mt-4 border-2 rounded-lg dark:bg-zinc-700 dark:border-none;
+  }
+  .input-check {
+    @apply w-4 h-4 mt-4 mr-3 dark:bg-black;
+  }
+  .font {
+    @apply font-bold;
+  }
+  .btn {
+    @apply w-24 h-12 py-2 px-4 mt-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+  .allAcc {
+    @apply text-textt mt-10;
+  }
+  .social-logos {
+    @apply flex items-center justify-start gap-5 mt-6;
+  }
+  .border {
+    @apply w-[60px] h-[60px] p-2 object-cover border-2 border-border rounded-xl bg-navbar;
+  }
+  .borderr {
+    @apply w-[60px] h-[60px] p-2 object-cover border-2 border-r-border rounded-xl bg-white;
+  }
+}
